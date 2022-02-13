@@ -1,0 +1,43 @@
+﻿1.What is clean code? What is the role played by refactoring one’s code?
+
+Clean code is the art of organising you code in a proper way. 
+Having well named classes, methods and variables as well as minimal number of classes is part of the clean code process. 
+In refactoring, clean code is very important since we need to test and update the project. If the project isn't clean, refactoring will be complicated,
+we won't be able to fully understand the code and test it. 
+
+2.Do you think you can “over-refactor” and do too much? How?
+
+Yes, if you try to do too much refactoring, you might "destroy" the code and instead of make it simpler you'll make it harder to understand.
+It might also be possible that you create code error by refactoring too much and you'll have to restart from the beginning. I think the refactoring shouldn't
+be too sophisticated and everytime you make a change, you have to test it. 
+
+3.What is a code smell? Why should you bother?
+Code smell can be compared to dish that are accumulated in your house through time. At a certain point it becomes too hard to clean.
+In a code, if methods/classes have accumulated too much data over time, it becomes so hard to work with that you'll have to make significant changes if you want
+to change them. Methods/classes need to be often update and simplify.
+
+4.Can you identify a few code smells in the original GuildedRose ?
+The over repeated increment and decrement operators. Too much if/else statements. 
+
+5.What are some refactoring techniques you could have used in the GuildedRose?
+I could've used the move method for the updatequality() method in the gildedrosetest classes and make the old method a reference of the new ones.
+I could've extract the two test classes and group it together. 
+
+-------------------------------
+
+1.In simple terms, and a few sentences at most, what’s a design pattern?
+
+A design pattern is a list of modules elected as adapted solutions to solve a software conception problem. It's a basic conceptual solution to this problem. 
+
+a.When should you use one?
+
+Everytime you're creating a project. It will help you to solve commons software problems in case you face them.
+
+b.When shouldn’t you?
+
+When a code can be simplify, it's useless to use one you shouldn't apply it everywhere.
+
+3.Find an original idea to implement a decorator pattern (not the one from the website). Can you think of any limitations ?No need to code here.
+
+The project will be to create the whole life of a human. The human begin life as a child and we'll add features through time. Everytime the human grow, his age,
+weight, size etc. increase. The limitations will be the same as a real human life : at a certain point your size doesn't change anymore, you end up dying etc. 
